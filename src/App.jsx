@@ -4,16 +4,6 @@ import "./App.css";
 
 const projects = [
   {
-    title: "LuxeDining",
-    category: "Restaurant Website",
-    description:
-      "A responsive restaurant website with an elegant interface and interactive user experience.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/images/luxedining.png",
-    demo: "https://vikasikify113.github.io/restaurant/",
-    repo: "https://github.com/vikasikify113/restaurant",
-  },
-  {
     title: "AlgoQuest",
     category: "Algorithm Learning Platform",
     description:
@@ -22,6 +12,16 @@ const projects = [
     image: "/images/algoquest.png",
     demo: "https://algoquest.org/",
     repo: "",
+  },
+   {
+    title: "Chess Master",
+    category: "Interactive Web Application",
+    description:
+      "An interactive chess project built while exploring modern web development technologies.",
+    technologies: ["JavaScript", "React", "Node.js"],
+    image: "/images/chess-master.png",
+    demo: "",
+    repo: "https://github.com/vikasikify113/Chess-master",
   },
   {
     title: "FinTax",
@@ -33,16 +33,7 @@ const projects = [
     demo: "https://fintax-dashboard-prototype-8-331f.vercel.app/",
     repo: "",
   },
-  {
-    title: "Chess Master",
-    category: "Interactive Web Application",
-    description:
-      "An interactive chess project built while exploring modern web development technologies.",
-    technologies: ["JavaScript", "React", "Node.js"],
-    image: "/images/chess-master.png",
-    demo: "",
-    repo: "https://github.com/vikasikify113/Chess-master",
-  },
+ 
   {
     title: "Leaf AI",
     category: "College Coding / Team Project",
@@ -52,6 +43,17 @@ const projects = [
     image: "/images/leaf-ai.png",
     demo: "",
     repo: "",
+  },
+
+  {
+    title: "LuxeDining",
+    category: "Restaurant Website",
+    description:
+      "A responsive restaurant website with an elegant interface and interactive user experience.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    image: "/images/luxedining.png",
+    demo: "https://vikasikify113.github.io/restaurant/",
+    repo: "https://github.com/vikasikify113/restaurant",
   },
 ];
 
