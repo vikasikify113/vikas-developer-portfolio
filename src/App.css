@@ -478,3 +478,40 @@
   border-radius: 12px;
   margin-bottom: 20px;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 5%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.logo {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
